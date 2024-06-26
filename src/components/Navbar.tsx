@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="h-24 flex items-center justify-between">
         <div className="md:hidden lg:block w-[20%]">
-            <Link href="/" className="font-bold text-xl text-blue-600">SocialNimbus</Link>
+            <Link href="/" className="font-bold text-xl gradient-text">SocialNimbus</Link>
         </div>
         <div className="hidden md:flex w-[50%] text-sm">
             <div className="flex gap-6 text-gray-600">
